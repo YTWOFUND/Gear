@@ -143,7 +143,7 @@ sudo systemctl start gear-node
 ```
 sudo systemctl stop gear-node
 cd /root/.local/share/gear/chains
-sudo cp gear_staging_testnet_v5/network/secret_ed25519 gear_staging_testnet_v6/network/secret_ed25519
+sudo cp gear_staging_testnet_v6/network/secret_ed25519 gear_staging_testnet_v7/network/secret_ed25519
 sudo systemctl start gear-node
 ```
 5. Find your node at https://telemetry.gear-tech.io/ under the Gear Staging Testnet V5 tab.
