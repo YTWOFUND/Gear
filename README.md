@@ -64,19 +64,6 @@ Follow the link, type the name of the node.
 ```
 journalctl -n 100 -f -u gear-node
 ```
-## Update Gear node
-```
-wget https://get.gear.rs/gear-nightly-linux-x86_64.tar.xz
-```
-```
-tar -xvf gear-nightly-linux-x86_64.tar.xz -C /usr/bin
-```
-```
-rm gear-nightly-linux-x86_64.tar.xz
-```
-```
-sudo systemctl restart gear-node
-```
 ## Removing a Gear node
 Note that once a node is deleted, you won't be able to fully restore it. See the article [Backup and Restore](https://wiki.gear-tech.io/docs/node/backup-restore) for important data to be backed up.
 ```
