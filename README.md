@@ -7,7 +7,7 @@ CPU: 2 Core </br>
 RAM: 4Gb </br>
 SSD: 60Gb </br>
 OS: Ubuntu 20.04 LTS </br>
-# Installing the Gear Node </br>
+# Installing the Gear Node | [Update](https://github.com/YTWOFUND/Gear/edit/main/README.md#update)</br>
 ### System update
 ```
 sudo apt update && apt upgrade -y
